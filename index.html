@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>KING SARKAR ™ Landing Page</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&display=swap" rel="stylesheet">
+  <style>
+    * { margin:0; padding:0; box-sizing:border-box; font-family:'Montserrat', sans-serif; }
+
+    body {
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      background: linear-gradient(135deg, #1f1c2c, #1c00a9);
+      color: #fff;
+      padding: 20px;
+    }
+
+    .container {
+      background: rgba(255,255,255,0.08);
+      border-radius: 20px;
+      padding: 40px 25px;
+      max-width: 500px;
+      width: 100%;
+      backdrop-filter: blur(10px);
+      box-shadow: 0 6px 20px rgba(0,0,0,0.4);
+      border: 1px solid rgba(255,255,255,0.15);
+    }
+
+    .logo {
+      font-size: 2rem;
+      font-weight: 800;
+      color: #ffd700;
+      margin-bottom: 15px;
+      letter-spacing: 1px;
+    }
+
+    .subtitle {
+      font-size: 1rem;
+      color: #e0e0e0;
+      margin-bottom: 20px;
+    }
+
+    .stats {
+      padding: 12px 18px;
+      border-radius: 15px;
+      margin-bottom: 20px;
+      font-weight: 600;
+      display: flex;
+      justify-content: space-between;
+      font-size: 0.95rem;
+    }
+
+    .guarantee {
+      font-size: 1.1rem;
+      font-weight: 700;
+      margin-bottom: 20px;
+      color: #ff6b81;
+    }
+
+    .buttons {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+    }
+
+    .btn {
+      padding: 15px 20px;
+      font-size: 1.5rem;
+      font-weight: 700;
+      border-radius: 12px;
+      border: none;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      color: #fff;
+      background: linear-gradient(45deg, #ff6b6b, #fbc531, #1dd1a1, #5f27cd);
+      background-size: 300% 300%;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.25);
+    }
+
+    .btn:hover {
+      transform: scale(1.05);
+      opacity: 0.9;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.35);
+    }
+
+    @media(max-width:480px){
+      .container { padding: 30px 20px; }
+      .logo { font-size: 1.8rem; }
+      .stats { flex-direction: column; gap: 8px; font-size: 0.9rem; }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <div class="logo">𝐊𝐈𝐍𝐆 𝐒𝐀𝐑𝐊𝐀𝐑 ™ [2021]</div>
+
+    <div class="stats">
+      <span>Subscribers:</span>
+      <span>39,348</span>
+    </div>
+
+    <div class="guarantee">Meri Guarantee Only 👇</div>
+
+    <div class="buttons">
+      <button class="btn" onclick="window.open('https://t.me/+CLBjlQSPHj9mN2Jl','_blank')">Join [𝐊𝐈𝐍𝐆 𝐒𝐀𝐑𝐊𝐀𝐑 ™ [2021]] Channel</button>
+    </div>
+  </div>
+
+</body>
+</html>
